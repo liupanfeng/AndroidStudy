@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         ImageLoader imageLoader=new ImageLoader();
         imageLoader.setDiskCache(true);
         imageLoader.disPlayImage("http://img2.imgtn.bdimg.com/it/u=395920684,863299018&fm=21&gp=0.jpg",iv_show_pic);
+        System.out.println("lpf");
     }
 }
